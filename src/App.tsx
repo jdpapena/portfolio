@@ -13,7 +13,7 @@ const projects = [
         stack: ["Python", "FastAPI", "React"],
         stat: "FULL STACK",
         url: "https://github.com/jdpapena/saliksik",
-        image: "public/projects/saliksik.png",
+        image: "/portfolio/projects/saliksik.png",
         imageAlt:
             "SALIKSIK interface comparing financial data for Apple and Microsoft",
     },
@@ -25,7 +25,7 @@ const projects = [
         stack: ["Python", "Binance Data", "CSV"],
         stat: "BACKTEST ENGINE",
         url: "https://github.com/jdpapena/crypto-backtest-engine",
-        image: "public/projects/crypto-backtest.png",
+        image: "/portfolio/projects/crypto-backtest.png",
         imageAlt:
             "Crypto Market Event Analytics dashboard showing historical market events and session analysis",
     },
@@ -37,7 +37,7 @@ const projects = [
         stack: ["Python", "Streamlit", "JSON"],
         stat: "DECISION ENGINE",
         url: "https://github.com/jdpapena/mlbb-counter-generator",
-        image: "public/projects/mlbb-counter.png",
+        image: "/portfolio/projects/mlbb-counter.png",
         imageAlt:
             "MOLDS EXP-lane counter interface showing matchup recommendations",
     },
@@ -49,7 +49,7 @@ const projects = [
         stack: ["Arduino", "C/C++", "RTC"],
         stat: "EMBEDDED",
         url: "https://github.com/jdpapena/automatic-fish-feeder",
-        image: "public/projects/fish-feeder.png",
+        image: "/portfolio/projects/fish-feeder.png",
         imageAlt:
             "CAD model of the automatic fish feeder enclosure and dispensing mechanism",
     },
