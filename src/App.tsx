@@ -9,11 +9,11 @@ const projects = [
         name: "SALIKSIK",
         category: "Financial Research Platform",
         description:
-            "A full-stack financial research platform for comparing US companies using synchronized SEC financial data and transparent reported metrics.",
+            "A full-stack financial research platform that synchronizes SEC company filings, standardizes reported financial metrics, and compares companies through a FastAPI + React interface.",
         stack: ["Python", "FastAPI", "React"],
         stat: "FULL STACK",
         url: "https://github.com/jdpapena/saliksik",
-        image: "/projects/saliksik.png",
+        image: "public/projects/saliksik.png",
         imageAlt:
             "SALIKSIK interface comparing financial data for Apple and Microsoft",
     },
@@ -21,11 +21,11 @@ const projects = [
         name: "CRYPTO BACKTEST ENGINE",
         category: "Market Data & Backtesting",
         description:
-            "An in-memory Python engine that processes historical Binance market data, detects defined market events, and exports structured results for further analysis.",
+            "A Python backtesting and analytics engine for processing 2.2M+ historical market records, detecting rule-based market events, and analyzing results across periods and market sessions.",
         stack: ["Python", "Binance Data", "CSV"],
         stat: "BACKTEST ENGINE",
         url: "https://github.com/jdpapena/crypto-backtest-engine",
-        image: "/projects/crypto-backtest.png",
+        image: "public/projects/crypto-backtest.png",
         imageAlt:
             "Crypto Market Event Analytics dashboard showing historical market events and session analysis",
     },
@@ -37,7 +37,7 @@ const projects = [
         stack: ["Python", "Streamlit", "JSON"],
         stat: "DECISION ENGINE",
         url: "https://github.com/jdpapena/mlbb-counter-generator",
-        image: "/projects/mlbb-counter.png",
+        image: "public/projects/mlbb-counter.png",
         imageAlt:
             "MOLDS EXP-lane counter interface showing matchup recommendations",
     },
@@ -49,7 +49,7 @@ const projects = [
         stack: ["Arduino", "C/C++", "RTC"],
         stat: "EMBEDDED",
         url: "https://github.com/jdpapena/automatic-fish-feeder",
-        image: "/projects/fish-feeder.png",
+        image: "public/projects/fish-feeder.png",
         imageAlt:
             "CAD model of the automatic fish feeder enclosure and dispensing mechanism",
     },
@@ -182,17 +182,17 @@ function App() {
                     <div className="metrics">
                         <div>
                             <strong>2.2M+</strong>
-                            <span>data points processed</span>
+                            <span>market records processed</span>
                         </div>
 
                         <div>
                             <strong>Python</strong>
-                            <span>primary language</span>
+                            <span>primary development language</span>
                         </div>
 
                         <div>
                             <strong>2020 - 2026</strong>
-                            <span>market data</span>
+                            <span>historical market data</span>
                         </div>
                     </div>
                 </section>
